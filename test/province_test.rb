@@ -8,6 +8,7 @@ class ProvinceTest < Minitest::Test
 
   def setup
     @asia = Province.new(sample_province_data)
+    @no_producers = Province.new(no_producers_province_data)
   end
 
   def test_province_shortfall
